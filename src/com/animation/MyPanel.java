@@ -45,7 +45,9 @@ public class MyPanel extends JPanel implements ActionListener {
             vy *= -1;
         }
 
-        repaint();
+
+        this.repaint();
+
     }
     
 }
